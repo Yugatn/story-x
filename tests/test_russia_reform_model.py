@@ -56,6 +56,18 @@ class ReformModelTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             model.validate_config(bad)
 
+    def test_non_finite_revenue_is_rejected(self):
+        bad = dict(self.config)
+        bad["state_resource_revenue_rub"] = float("nan")
+        with self.assertRaises(ValueError):
+            model.validate_config(bad)
+
+    def test_invalid_year_is_rejected(self):
+        bad = dict(self.config)
+        bad["year"] = 2026.5
+        with self.assertRaises(ValueError):
+            model.validate_config(bad)
+
 
 if __name__ == "__main__":
     unittest.main()
