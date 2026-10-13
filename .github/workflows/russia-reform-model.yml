@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "tools/russia_reform_model.py"
+      - "tools/russia_reform_sensitivity.py"
+      - "tests/test_russia_reform_sensitivity.py"
       - "tests/test_russia_reform_model.py"
       - ".github/workflows/russia-reform-model.yml"
   pull_request:
@@ -30,3 +32,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Run built-in smoke tests
         run: python tools/russia_reform_model.py --test
+      - name: Run sensitivity grid smoke test
+        run: python tools/russia_reform_sensitivity.py --output /tmp/russia_reform_sensitivity.csv
