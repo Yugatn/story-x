@@ -33,4 +33,6 @@ jobs:
       - name: Run built-in smoke tests
         run: python tools/russia_reform_model.py --test
       - name: Run sensitivity grid smoke test
+        run: python tools/russia_reform_sensitivity.py --test
+      - name: Export sensitivity CSV
         run: python tools/russia_reform_sensitivity.py --output /tmp/russia_reform_sensitivity.csv
