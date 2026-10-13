@@ -76,6 +76,11 @@ def main() -> int:
     args = parser.parse_args()
     try:
         config = base.load_config(args.input)
+        if args.input:
+            from russia_reform_data_audit import audit_config
+            errors = audit_config(config)
+            if errors:
+                raise ValueError("Input provenance audit failed: " + "; ".join(errors))
         rows = build_grid(config)
         if args.test:
             if len(rows) != 243:
