@@ -72,10 +72,18 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", help="JSON config with sourced official annual inputs")
     parser.add_argument("--output", default="russia_reform_sensitivity.csv")
+    parser.add_argument("--test", action="store_true", help="Run a lightweight grid smoke test")
     args = parser.parse_args()
     try:
         config = base.load_config(args.input)
         rows = build_grid(config)
+        if args.test:
+            if len(rows) != 243:
+                raise AssertionError(f"Expected 243 cases, got {len(rows)}")
+            if not any(row["fund_return_pct"] == -5.0 for row in rows):
+                raise AssertionError("Missing negative-return stress cases")
+            print("Sensitivity smoke test passed: 243 cases, including negative-return stress.")
+            return 0
         with Path(args.output).open("w", newline="", encoding="utf-8-sig") as stream:
             writer = csv.DictWriter(stream, fieldnames=list(rows[0].keys()))
             writer.writeheader()
