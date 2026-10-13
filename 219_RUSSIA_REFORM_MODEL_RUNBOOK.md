@@ -104,7 +104,7 @@
     python tools/russia_reform_sensitivity.py --test
     python tools/russia_reform_sensitivity.py --input russia_2026_inputs.json --output sensitivity.csv
 
-Первая команда пока не реализована как отдельный режим CLI; проверка инструмента производится через unittest:
+Первая команда выполняет лёгкую встроенную проверку размерности сетки и наличия отрицательной доходности. Полный набор модульных тестов запускается отдельно:
 
     python -m unittest discover -s tests -v
 
