@@ -51,6 +51,16 @@ class DataAuditTests(unittest.TestCase):
         config["metadata"]["data_cutoff"] = "2026-99-99"
         self.assertTrue(any("data_cutoff" in error for error in audit.audit_config(config)))
 
+    def test_duplicate_source_record_is_rejected(self):
+        config = self.complete_config()
+        config["metadata"]["sources"].append(dict(config["metadata"]["sources"][0]))
+        self.assertTrue(any("duplicate provenance" in error for error in audit.audit_config(config)))
+
+    def test_non_https_source_url_is_rejected(self):
+        config = self.complete_config()
+        config["metadata"]["sources"][0]["url"] = "http://example.invalid/source"
+        self.assertTrue(any("absolute HTTPS" in error for error in audit.audit_config(config)))
+
 
 if __name__ == "__main__":
     unittest.main()
