@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import sys
 from pathlib import Path
 from typing import Any
@@ -64,9 +65,16 @@ def load_config(path: str | None) -> dict[str, Any]:
 
 
 def validate_config(c: dict[str, Any]) -> None:
+    missing = sorted(REQUIRED - c.keys())
+    if missing:
+        raise ValueError("Missing required config keys: " + ", ".join(missing))
+    if not isinstance(c["year"], int) or isinstance(c["year"], bool) or not 1900 <= c["year"] <= 2200:
+        raise ValueError("year must be an integer between 1900 and 2200")
     for key in REQUIRED - {"year"}:
         if not isinstance(c[key], (int, float)) or isinstance(c[key], bool):
             raise ValueError(f"{key} must be numeric")
+        if not math.isfinite(float(c[key])):
+            raise ValueError(f"{key} must be finite")
         if key != "fund_realized_return_rate" and c[key] < 0:
             raise ValueError(f"{key} must be non-negative")
     if not 0 <= c["baseline_vat_rate"] <= 1:
@@ -150,6 +158,11 @@ def main() -> int:
     try:
         config = load_config(args.input)
         validate_config(config)
+        if args.input:
+            from russia_reform_data_audit import audit_config
+            errors = audit_config(config)
+            if errors:
+                raise ValueError("Input provenance audit failed: " + "; ".join(errors))
         rows = [calculate(config, s) for s in SCENARIOS]
         out = Path(args.output)
         with out.open("w", newline="", encoding="utf-8-sig") as f:
