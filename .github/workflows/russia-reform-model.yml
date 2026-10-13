@@ -5,13 +5,19 @@ on:
     paths:
       - "tools/russia_reform_model.py"
       - "tools/russia_reform_sensitivity.py"
+      - "tools/russia_reform_data_audit.py"
+      - "tests/test_russia_reform_data_audit.py"
       - "tests/test_russia_reform_sensitivity.py"
       - "tests/test_russia_reform_model.py"
       - ".github/workflows/russia-reform-model.yml"
   pull_request:
     paths:
       - "tools/russia_reform_model.py"
+      - "tools/russia_reform_sensitivity.py"
+      - "tools/russia_reform_data_audit.py"
       - "tests/test_russia_reform_model.py"
+      - "tests/test_russia_reform_sensitivity.py"
+      - "tests/test_russia_reform_data_audit.py"
       - ".github/workflows/russia-reform-model.yml"
   workflow_dispatch:
 
