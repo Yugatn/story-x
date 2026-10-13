@@ -13,6 +13,7 @@ import sys
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import russia_reform_model as model
 
@@ -60,7 +61,12 @@ def audit_config(config: dict[str, Any]) -> list[str]:
         if field not in NUMERIC_FIELDS:
             errors.append(f"metadata.sources[{index}].field must name a model numeric field")
             continue
+        if field in indexed:
+            errors.append(f"duplicate provenance records for numeric field: {field}")
         indexed[field] = source
+        parsed_url = urlparse(str(source.get("url", "")))
+        if parsed_url.scheme != "https" or not parsed_url.netloc:
+            errors.append(f"metadata.sources[{index}].url must be an absolute HTTPS URL")
         for date_field in ("publication_date", "accessed_date"):
             try:
                 date.fromisoformat(source[date_field])
