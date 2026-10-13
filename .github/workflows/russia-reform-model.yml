@@ -3,6 +3,11 @@ name: Russia reform model tests
 on:
   push:
     paths:
+      - "217_ECONOMIC_MODEL_RESOURCE_PENSION_DYNAMIC_VAT_DISCOUNTS.md"
+      - "218_RUSSIA_QUANTITATIVE_REFORM_MODEL.md"
+      - "219_RUSSIA_REFORM_MODEL_RUNBOOK.md"
+      - "220_RUSSIA_REFORM_POLICY_GUARDRAILS.md"
+      - "221_RUSSIA_REFORM_PILOT_EVALUATION_PROTOCOL.md"
       - "tools/russia_reform_model.py"
       - "tools/russia_reform_sensitivity.py"
       - "tools/russia_reform_data_audit.py"
