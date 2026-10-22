@@ -56,7 +56,11 @@
 
 — При метаболизме этанола возникает ацетальдегид. Это генотоксичный метаболит: он способен повреждать ДНК и участвовать в возникновении канцерогенных мутаций. IARC также рассматривает окислительный стресс и другие механизмы. Алкогольные напитки признаны канцерогенным фактором для человека.
 
-— Но повреждение ДНК клетки не обязательно становится наследственной мутацией, — заметила Мира.
+— Но повреждение ДНК клетки не обязательно становится наследственной мутацией, — заметила Мира. — Посмотри, как осторожно формулируют выводы специалисты.
+
+Она открыла [страницу FDA «How Smoking Affects Reproductive Health»](https://www.fda.gov/tobacco-products/health-effects-tobacco-use/how-smoking-affects-reproductive-health) и вслух прочитала короткую английскую фразу: **«Smoking can damage the DNA in sperm»**.
+
+— Здесь сказано «может повреждать», — продолжила она. — Это серьёзный научный вывод о риске, но не приговор каждому человеку и не утверждение, что любое повреждение обязательно унаследует ребёнок.
 
 — Именно. Есть репарация, разные ткани и разные пути повреждений. Научный аргумент нельзя усиливать несуществующей гарантией болезни.
 
@@ -229,6 +233,7 @@
 3. NIAAA. *Alcohol and the Adolescent Brain*. https://www.niaaa.nih.gov/publications/alcohol-and-adolescent-brain
 4. International Agency for Research on Cancer. *Reduction or Cessation of Alcohol Consumption*. https://www.iarc.who.int/faq/iarc-handbooks-of-cancer-prevention-volume-20a-reduction-or-cessation-of-alcohol-consumption/
 5. US Centers for Disease Control and Prevention. *Tobacco and Cancer*. https://www.cdc.gov/cancer/risk-factors/tobacco.html
+   - US Food and Drug Administration. *How Smoking Affects Reproductive Health*. https://www.fda.gov/tobacco-products/health-effects-tobacco-use/how-smoking-affects-reproductive-health
 6. American Society for Reproductive Medicine (2024). *Tobacco or marijuana use and infertility: a committee opinion*. https://pubmed.ncbi.nlm.nih.gov/38284953/
 7. *Investigating the association between alcohol intake and male reproductive function* (2023), meta-analysis. https://pubmed.ncbi.nlm.nih.gov/37159717/
 8. CDC. *About Alcohol Use During Pregnancy*. https://www.cdc.gov/alcohol-pregnancy/about/index.html
