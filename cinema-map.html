@@ -58,15 +58,15 @@ svg{display:block;min-width:760px;width:100%;height:auto}
 <div class="kicker">Ассоциативно-контекстуальная сеть · 2026</div>
 <h1>Принцип<br>кинодополняемости</h1>
 <p>Визуальная карта не доказывает, что фильмы происходят в одной вселенной. Каждая линия означает конкретную <strong>лакуну</strong> одного произведения и <strong>контекст</strong>, который даёт другое. Выберите линию или произведение.</p>
-<div class="controls">
+<p class="small"><a href="./CINEMA_WORKS_CATALOG_2026.md">Каталог произведений и экранизаций</a> · <a href="./research/COSMIC_RECURSION_CINEMA_BRIDGES_2026.md">Большой разбор дополнительных связей: «Эквилибриум», «Посвящённый», «Дивергент», «Голодные игры», «Мир Дикого Запада»</a></p><div class="controls">
 <label for="cluster">Тема
-<select id="cluster"><option value="all">Все кластеры</option><option value="identity">Клоны и происхождение</option><option value="multiple">Множественное Я</option><option value="transpersonal">Множество жизней</option><option value="constructed">Сконструированная реальность</option></select></label>
+<select id="cluster"><option value="all">Все кластеры</option><option value="identity">Клоны и происхождение</option><option value="multiple">Множественное Я</option><option value="transpersonal">Множество жизней</option><option value="constructed">Сконструированная реальность</option><option value="cosmic">Космическая рекурсия</option></select></label>
 <label for="search">Поиск <input id="search" placeholder="Название произведения"></label>
 <button id="reset" type="button">Показать все связи</button>
 </div>
 <div class="layout">
 <div class="graphWrap">
-<svg viewBox="0 0 1010 730" role="img" aria-label="Карта взаимосвязей фильмов и литературных произведений">
+<svg viewBox="0 0 1010 1140" role="img" aria-label="Карта взаимосвязей фильмов и литературных произведений">
 <g id="edges"></g>
 <g id="nodes"></g>
 </svg>
@@ -78,7 +78,7 @@ svg{display:block;min-width:760px;width:100%;height:auto}
 </section>
 </div>
 <div class="legend"><span><b>Светлая линия</b> — выбранная связь</span><span>Оранжевый узел — реальный исторический материал, не художественный сюжет</span><span>Направление описано в паспорте</span></div>
-<h2>Каталог связей</h2>
+<h2>Каталог связей с пояснениями</h2>
 <div class="toc" id="cases"></div>
 <p class="footer">Югатн · «Сюжет Икс» · Авторская исследовательская карта. Кинодополняемость не является доказательством о существовании иных миров, технологического переноса сознания или клинической природы человека. <a href="https://github.com/Yugatn/ambivalent-solipsism/blob/main/research/SUBJECT_MULTIPLICITY_AND_SINGLE_CARRIER.md">Различение субъекта, личности и тела</a>. <a href="./451_CHAPTER_THE_THREE_QUESTIONS_AT_THE_GLASS.md">Глава 451 «Три вопроса у стекла»</a>.</p>
 </main>
@@ -96,7 +96,10 @@ const nodes=[
 {id:"nobody",name:"Господин Никто",x:555,y:595,group:"transpersonal"},
 {id:"matrix",name:"Матрица",x:825,y:115,group:"constructed"},
 {id:"truman",name:"Шоу Трумана",x:825,y:350,group:"constructed"},
-{id:"time",name:"Сбившееся время",x:825,y:595,group:"constructed"}];
+{id:"time",name:"Сбившееся время",x:825,y:595,group:"constructed"},
+{id:"odyssey",name:"Одиссея 2001",x:115,y:870,group:"cosmic"},
+{id:"interstellar",name:"Интерстеллар",x:325,y:870,group:"cosmic"},
+{id:"discovery",name:"Открытие",x:540,y:870,group:"transpersonal"}];
 const links=[
 {id:"clone",a:"oblivion",b:"moon",g:"identity",type:"Психическое, идентичностное",question:"Как переживается раскрытие ложной биографии и собственного клонирования?",transfer:"Переживания Сэма Белла позволяют глубже понять драму Джека Харпера.",status:"Авторская интерпретация Югатна",counter:"Биографии, системы и решения героев различаются.",residual:"Непоказанные внутренние переживания Джека."},
 {id:"trust",a:"oblivion",b:"mother",g:"identity",type:"Эпистемическое, этическое",question:"Как герой пересматривает доверие к системе, которая объясняла ему мир?",transfer:"Сочетание воспитания, заботы и сокрытия сведений в «Дитя робота».",status:"Предложено Симбионтом; автор ещё не смотрел фильм",counter:"Героиня «Дитя робота» не является клоном Джека.",residual:"Невозможно вывести одинаковый моральный выбор из сходства обстоятельств."},
@@ -110,6 +113,12 @@ const links=[
 {id:"timeandtruman",a:"time",b:"truman",g:"constructed",type:"Социальное, причинное",question:"Как поддерживается обычность искусственно организованной среды?",transfer:"«Шоу Трумана» показывает соучастие людей в поддержании контролируемого окружения.",status:"Интерпретация литературного мотива Филипа К. Дика",counter:"В «Сбившемся времени» иные цели организации мира.",residual:"Механизм раскрытия каждой отдельной тайны."},
 {id:"mothertruman",a:"mother",b:"truman",g:"constructed",type:"Контроль информации",question:"Что значит взросление внутри информационного сценария, заданного другим?",transfer:"Сконструированный жизненный мир и постепенное осознание границ доверия.",status:"Предложено Симбионтом",counter:"Один сюжет связан с роботом-воспитателем, другой — с телепроизводством.",residual:"Степень автономии действующих лиц после раскрытия."}
 ];
+links.push(
+{id:"origin",a:"oblivion",b:"odyssey",g:"cosmic",type:"Космологическая, технологическая",question:"Откуда возник разум Тета?",transfer:"Монолит как загадка иного разума, HAL как модель автономного компьютера.",explain:"В «Обливионе» Тет управляет клонами и техникой, но его происхождение остаётся за кадром. В «Космической одиссее» HAL создан людьми, а Монолит связан с таинственным внеземным разумом. Контекст фильма Кубрика позволяет поставить два новых вопроса: кто создал Тет и каковы его цели? Гипотеза Югатна о приходе Тета из иного измерения остаётся фантастическим предположением, а не сюжетным фактом.",status:"Гипотеза Югатна — не канон",counter:"HAL и Монолит — разные феномены; ни один не является доказанным прототипом Тета.",residual:"Предыстория Тета остаётся неизвестной."},
+{id:"recursion",a:"odyssey",b:"interstellar",g:"cosmic",type:"Темпоральная, рекурсивная",question:"Может ли воздействие на прошлое исходить из собственного будущего?",transfer:"Тессеракт, передача данных Купером и рекурсивная причинность.",explain:"В «Интерстелларе» Купер получает доступ к прошлому через тессеракт и посылает дочери данные; будущее человечества оказывается причинно связано с собственной историей. После знакомства с этим сюжетом Монолит «Одиссеи» можно рассмотреть с новым вопросом: может ли внешний разум быть связан с будущим тех, на кого он влияет? Фильм Кубрика не утверждает этого, так что связь работает как гипотеза.",status:"Авторская ассоциация Югатна",counter:"«2001» не устанавливает человеческое происхождение Монолита.",residual:"Источник Монолита и природа петли не установлены."},
+{id:"beyond",a:"discovery",b:"floor",g:"transpersonal",type:"Трансперсональная, двунаправленная",question:"Что может означать продолжение опыта вне прежнего мира?",transfer:"«13-й этаж» позволяет представить уровни реальности, «Открытие» — поставить вопрос о непрерывности субъекта.",explain:"В «Открытии» внутри художественного мира объявлено об открытии посмертного продолжения существования. «13-й этаж» показывает техническую модель вложенных миров. Сопоставление помогает вообразить переход за пределы доступной реальности, но не утверждает, что посмертие «Открытия» представляет собой симуляцию. В обратном направлении «Открытие» делает важнее вопрос о сохранении воспринимающего Я.",status:"Двустороннее сопоставление Югатна",counter:"Нет доказанной общей механики фильмов.",residual:"Что сохраняет идентичность субъекта при переходе?"},
+{id:"lives",a:"discovery",b:"atlas",g:"transpersonal",type:"Трансперсональная",question:"Может ли одна биография быть частью нескольких жизней?",transfer:"«Облачный атлас» даёт переклички жизней и эпох.",explain:"«Открытие» допускает новую жизнь после смерти в рамках своего сюжета. «Облачный атлас» через истории разных эпох предлагает зрителю дополнительный художественный язык для трансперсонального пути субъекта. Связь авторская и не доказывает реинкарнацию.",status:"Авторская интерпретация Югатна",counter:"Нет общей вселенной и единого установленного механизма.",residual:"Критерии тождества субъекта между жизнями."}
+);
 const ns=new Map(nodes.map(n=>[n.id,n]));
 const NS="http://www.w3.org/2000/svg";
 const $=x=>document.getElementById(x);
@@ -119,13 +128,13 @@ function safe(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;"
 const edgeRoot=$("edges"),nodeRoot=$("nodes");
 links.forEach(l=>{const a=ns.get(l.a),b=ns.get(l.b),e=svg("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,class:"link","data-id":l.id,tabindex:0,role:"button","aria-label":a.name+" и "+b.name});e.addEventListener("click",()=>show(l.id));e.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();show(l.id)}});edgeRoot.append(e);});
 nodes.forEach(n=>{const e=svg("g",{class:"node"+(n.nonfiction?" nf":""),"data-node":n.id,tabindex:0,role:"button","aria-label":"Показать связи произведения "+n.name});const r=svg("rect",{x:n.x-91,y:n.y-24,width:182,height:48});const t=svg("text",{x:n.x,y:n.y+4,"text-anchor":"middle"});t.textContent=n.name;e.append(r,t);e.addEventListener("click",()=>focusNode(n.id));e.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();focusNode(n.id)}});nodeRoot.append(e);});
-function show(id){active=id;const l=links.find(e=>e.id===id);const a=ns.get(l.a),b=ns.get(l.b);$("details").innerHTML="<span class='kicker'>Паспорт связи</span><p class='dataTitle'>"+safe(a.name)+" / "+safe(b.name)+"</p><p class='status'>"+safe(l.status)+"</p><dl><dt>Произведение с лакуной</dt><dd>"+safe(a.name)+"</dd><dt>Контекст для дополнения</dt><dd>"+safe(b.name)+"</dd><dt>Вопрос</dt><dd>"+safe(l.question)+"</dd><dt>Тип</dt><dd>"+safe(l.type)+"</dd><dt>Переносимый контекст</dt><dd>"+safe(l.transfer)+"</dd><dt>Контрсвязь</dt><dd>"+safe(l.counter)+"</dd><dt>Residual / Неизвестное</dt><dd>"+safe(l.residual)+"</dd></dl>";
+function show(id){active=id;const l=links.find(e=>e.id===id);const a=ns.get(l.a),b=ns.get(l.b);$("details").innerHTML="<span class='kicker'>Паспорт связи</span><p class='dataTitle'>"+safe(a.name)+" / "+safe(b.name)+"</p><p class='status'>"+safe(l.status)+"</p><dl><dt>Произведение с лакуной</dt><dd>"+safe(a.name)+"</dd><dt>Контекст для дополнения</dt><dd>"+safe(b.name)+"</dd><dt>Вопрос</dt><dd>"+safe(l.question)+"</dd><dt>Тип</dt><dd>"+safe(l.type)+"</dd><dt>Развёрнутое объяснение</dt><dd>"+safe(l.explain||l.transfer)+"</dd><dt>Переносимый контекст</dt><dd>"+safe(l.transfer)+"</dd><dt>Контрсвязь</dt><dd>"+safe(l.counter)+"</dd><dt>Residual / Неизвестное</dt><dd>"+safe(l.residual)+"</dd></dl>";
 refresh();}
 function focusNode(id){const first=links.find(l=>l.a===id||l.b===id);if(first)show(first.id);}
 function refresh(){const q=$("search").value.toLowerCase().trim(),c=$("cluster").value;const allowed=new Set(links.filter(l=>(c==="all"||l.g===c)&&(q===""||ns.get(l.a).name.toLowerCase().includes(q)||ns.get(l.b).name.toLowerCase().includes(q))).map(l=>l.id));edgeRoot.querySelectorAll(".link").forEach(e=>{const ok=allowed.has(e.dataset.id);e.style.display=ok?"":"none";e.classList.toggle("active",ok&&active===e.dataset.id);e.classList.toggle("faded",ok&&active!==null&&active!==e.dataset.id)});
 const visibleNodes=new Set(links.filter(l=>allowed.has(l.id)).flatMap(l=>[l.a,l.b]));nodeRoot.querySelectorAll(".node").forEach(e=>{e.classList.toggle("faded",!visibleNodes.has(e.dataset.node));const chosen=links.find(l=>l.id===active);e.classList.toggle("active",!!(chosen&&(chosen.a===e.dataset.node||chosen.b===e.dataset.node)))});
 $("cases").innerHTML="";
-links.filter(l=>allowed.has(l.id)).forEach(l=>{const card=document.createElement("article");card.className="case";const a=ns.get(l.a),b=ns.get(l.b);card.innerHTML="<strong>"+safe(a.name)+" и "+safe(b.name)+"</strong><p>"+safe(l.question)+"</p>";const btn=document.createElement("button");btn.type="button";btn.textContent="Открыть паспорт";btn.addEventListener("click",()=>show(l.id));card.append(btn);$("cases").append(card)});
+links.filter(l=>allowed.has(l.id)).forEach(l=>{const card=document.createElement("article");card.className="case";const a=ns.get(l.a),b=ns.get(l.b);card.innerHTML="<strong>"+safe(a.name)+" и "+safe(b.name)+"</strong><p>"+safe(l.explain||l.transfer)+"</p>";const btn=document.createElement("button");btn.type="button";btn.textContent="Открыть паспорт";btn.addEventListener("click",()=>show(l.id));card.append(btn);$("cases").append(card)});
 if(!$("cases").children.length){const p=document.createElement("p");p.textContent="Для текущего фильтра связей не найдено."; $("cases").append(p)}
 }
 $("cluster").addEventListener("change",refresh);$("search").addEventListener("input",refresh);
