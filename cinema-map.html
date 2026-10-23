@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#060d10">
+<title>Карта кинодополняемости — Югатн</title>
+<style>
+:root{color-scheme:dark;--bg:#050a0c;--surface:#101a20;--edge:#334d51;--accent:#79e9cc;--muted:#aac0c2;--line:#2b4248}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 30% 0%,#102a28,#050a0c 52%);color:#e8f4f1;font-family:system-ui,-apple-system,sans-serif;line-height:1.6}
+main{max-width:1200px;padding:22px 18px 90px;margin:auto}
+nav{font-size:.8rem;margin-bottom:24px;display:flex;gap:16px;flex-wrap:wrap}
+a{color:var(--accent)}
+h1{font-size:clamp(2rem,5vw,3.8rem);letter-spacing:-.06em;line-height:1.08;margin:5px 0 15px}
+h2{font-size:1.25rem}
+p{max-width:85ch}
+.small{font-size:.84rem;color:var(--muted)}
+.kicker{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);padding:16px;border-radius:12px;margin:23px 0 12px}
+label{font-size:.86rem;color:var(--muted)}
+input,select,button{border:1px solid #395359;border-radius:8px;background:#061317;color:#e3f4ee;font:inherit;padding:7px 10px}
+input{min-width:185px}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #aaffdd;outline-offset:3px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 305px;gap:12px}
+.graphWrap{overflow:auto;border:1px solid var(--line);background:rgba(7,19,22,.9);border-radius:12px}
+svg{display:block;min-width:760px;width:100%;height:auto}
+.link{stroke:var(--edge);stroke-width:2.2;stroke-linecap:round;opacity:.85;cursor:pointer}
+.link.active{stroke:var(--accent);stroke-width:5;opacity:1}
+.link.faded{opacity:.11}
+.node rect{fill:#112128;stroke:#52746f;stroke-width:1.4;rx:10}
+.node text{fill:#edf8f2;pointer-events:none;font-size:12px;font-weight:650}
+.node{cursor:pointer}
+.node.active rect{stroke:#e7ffa6;stroke-width:3}
+.node:focus rect{stroke:#e7ffa6;stroke-width:4}
+.node.faded{opacity:.25}
+.node.nf rect{stroke:#dfac72}
+.legend{margin:12px 0 0;display:flex;gap:16px;flex-wrap:wrap;font-size:.75rem;color:var(--muted)}
+.legend b{color:var(--accent)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+.panel h2{margin:2px 0 10px}
+.dataTitle{font-size:1.15rem;font-weight:700;line-height:1.3}
+.panel dt{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-top:13px}
+.panel dd{font-size:.88rem;margin:2px 0}
+.panel .status{display:inline-block;border:1px solid #647a71;border-radius:20px;padding:3px 7px;font-size:.7rem;color:#d5eae1}
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px;margin-top:15px}
+.case{background:#101a20;border:1px solid var(--line);border-radius:10px;padding:14px}
+.case p{font-size:.83rem;margin:6px 0;color:var(--muted)}
+.case button{margin-top:8px;font-size:.8rem}
+.footer{border-top:1px solid var(--line);padding-top:18px;margin-top:27px;color:var(--muted);font-size:.8rem}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.panel{order:-1}.controls{align-items:stretch}}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./README.md">Сюжет Икс</a><a href="./CINEMA_COMPLEMENTARITY_GRAPH.md">Полная текстовая карта</a><a href="./I_AM_MOTHER_FILM_CONTEXT.md">Дитя робота</a><a href="https://github.com/Yugatn/ambivalent-solipsism/blob/main/BOOK/17_CINEMA_COMPLEMENTARITY.md">Методология АС</a></nav>
+<div class="kicker">Ассоциативно-контекстуальная сеть · 2026</div>
+<h1>Принцип<br>кинодополняемости</h1>
+<p>Визуальная карта не доказывает, что фильмы происходят в одной вселенной. Каждая линия означает конкретную <strong>лакуну</strong> одного произведения и <strong>контекст</strong>, который даёт другое. Выберите линию или произведение.</p>
+<div class="controls">
+<label for="cluster">Тема
+<select id="cluster"><option value="all">Все кластеры</option><option value="identity">Клоны и происхождение</option><option value="multiple">Множественное Я</option><option value="transpersonal">Множество жизней</option><option value="constructed">Сконструированная реальность</option></select></label>
+<label for="search">Поиск <input id="search" placeholder="Название произведения"></label>
+<button id="reset" type="button">Показать все связи</button>
+</div>
+<div class="layout">
+<div class="graphWrap">
+<svg viewBox="0 0 1010 730" role="img" aria-label="Карта взаимосвязей фильмов и литературных произведений">
+<g id="edges"></g>
+<g id="nodes"></g>
+</svg>
+</div>
+<section class="panel" aria-live="polite" id="details">
+<span class="kicker">Паспорт связи</span>
+<h2>Выберите линию</h2>
+<p class="small">К каждой связи записаны вопрос, переносимый контекст, авторство, альтернативы и остаток неизвестного.</p>
+</section>
+</div>
+<div class="legend"><span><b>Светлая линия</b> — выбранная связь</span><span>Оранжевый узел — реальный исторический материал, не художественный сюжет</span><span>Направление описано в паспорте</span></div>
+<h2>Каталог связей</h2>
+<div class="toc" id="cases"></div>
+<p class="footer">Югатн · «Сюжет Икс» · Авторская исследовательская карта. Кинодополняемость не является доказательством о существовании иных миров, технологического переноса сознания или клинической природы человека. <a href="https://github.com/Yugatn/ambivalent-solipsism/blob/main/research/SUBJECT_MULTIPLICITY_AND_SINGLE_CARRIER.md">Различение субъекта, личности и тела</a>.</p>
+</main>
+<script>
+"use strict";
+const nodes=[
+{id:"oblivion",name:"Обливион",x:115,y:115,group:"identity"},
+{id:"moon",name:"Луна 2112",x:325,y:115,group:"identity"},
+{id:"mother",name:"Дитя робота",x:540,y:115,group:"identity"},
+{id:"k",name:"Ка-Пэкс",x:115,y:350,group:"multiple"},
+{id:"floor",name:"13-й этаж",x:325,y:350,group:"multiple"},
+{id:"milligan",name:"Билли Миллиган",x:540,y:350,group:"multiple",nonfiction:true},
+{id:"strait",name:"Смирительная рубашка",x:135,y:595,group:"transpersonal"},
+{id:"atlas",name:"Облачный атлас",x:345,y:595,group:"transpersonal"},
+{id:"nobody",name:"Господин Никто",x:555,y:595,group:"transpersonal"},
+{id:"matrix",name:"Матрица",x:825,y:115,group:"constructed"},
+{id:"truman",name:"Шоу Трумана",x:825,y:350,group:"constructed"},
+{id:"time",name:"Сбившееся время",x:825,y:595,group:"constructed"}];
+const links=[
+{id:"clone",a:"oblivion",b:"moon",g:"identity",type:"Психическое, идентичностное",question:"Как переживается раскрытие ложной биографии и собственного клонирования?",transfer:"Переживания Сэма Белла позволяют глубже понять драму Джека Харпера.",status:"Авторская интерпретация Югатна",counter:"Биографии, системы и решения героев различаются.",residual:"Непоказанные внутренние переживания Джека."},
+{id:"trust",a:"oblivion",b:"mother",g:"identity",type:"Эпистемическое, этическое",question:"Как герой пересматривает доверие к системе, которая объясняла ему мир?",transfer:"Сочетание воспитания, заботы и сокрытия сведений в «Дитя робота».",status:"Предложено Симбионтом; автор ещё не смотрел фильм",counter:"Героиня «Дитя робота» не является клоном Джека.",residual:"Невозможно вывести одинаковый моральный выбор из сходства обстоятельств."},
+{id:"guest",a:"k",b:"floor",g:"multiple",type:"Онтологическое, идентичностное",question:"Кто является Протом и как можно истолковать отношения его идентичности с носителем?",transfer:"Фантастическая модель доступа к носителю из другого уровня реальности.",status:"Авторская киногипотеза Югатна",counter:"Независимые произведения, разные правила мира; внешнее подключение не установлено.",residual:"Открытая идентичность Прота."},
+{id:"states",a:"k",b:"milligan",g:"multiple",type:"Философское сопоставление с клиническим источником",question:"Есть ли основания отождествлять число личностных состояний с числом субъектов восприятия?",transfer:"Контраст художественной неоднозначности с клиническим описанием диссоциации.",status:"Вопрос Югатна · CLAIMED / NOT_TESTED",counter:"История Миллигана не подтверждает нескольких отдельных сознаний и не объясняется сценарием фантастического фильма.",residual:"Онтология субъекта и его непосредственное переживание."},
+{id:"london",a:"atlas",b:"strait",g:"transpersonal",type:"Трансперсональное",question:"Что могло связывать несколько жизней через эпохи?",transfer:"«Смирительная рубашка» предлагает образ переживающего странника между жизнями.",status:"Авторское философское сопоставление",counter:"Ни одно произведение не доказывает реинкарнацию.",residual:"Критерий тождества одного субъекта."},
+{id:"branches",a:"atlas",b:"nobody",g:"transpersonal",type:"Темпоральное",question:"Нужно ли считать единственной одну биографию героя?",transfer:"«Господин Никто» представляет альтернативные траектории жизни.",status:"Авторское философское сопоставление",counter:"Разветвление вариантов отличается от переклички персонажей разных эпох.",residual:"Единство субъекта и статус всех возможных ветвей."},
+{id:"simulation",a:"matrix",b:"floor",g:"constructed",type:"Онтологическое",question:"Что считать основным уровнем реальности?",transfer:"«13-й этаж» предлагает вложенные уровни симуляции.",status:"Контекстуальная интерпретация",counter:"Никакой общей кинематографической вселенной не установлено.",residual:"Пределы уровней внутри каждого сюжета."},
+{id:"trumansim",a:"truman",b:"floor",g:"constructed",type:"Эпистемическое",question:"Как распознать, что привычную среду организовали другие?",transfer:"«13-й этаж» даёт техническую метафору внешних наблюдателей и скрытых уровней.",status:"Авторская ассоциация Югатна",counter:"Телевизионная декорация не является программной симуляцией.",residual:"Право и способ получения внешних свидетельств."},
+{id:"timeandtruman",a:"time",b:"truman",g:"constructed",type:"Социальное, причинное",question:"Как поддерживается обычность искусственно организованной среды?",transfer:"«Шоу Трумана» показывает соучастие людей в поддержании контролируемого окружения.",status:"Интерпретация литературного мотива Филипа К. Дика",counter:"В «Сбившемся времени» иные цели организации мира.",residual:"Механизм раскрытия каждой отдельной тайны."},
+{id:"mothertruman",a:"mother",b:"truman",g:"constructed",type:"Контроль информации",question:"Что значит взросление внутри информационного сценария, заданного другим?",transfer:"Сконструированный жизненный мир и постепенное осознание границ доверия.",status:"Предложено Симбионтом",counter:"Один сюжет связан с роботом-воспитателем, другой — с телепроизводством.",residual:"Степень автономии действующих лиц после раскрытия."}
+];
+const ns=new Map(nodes.map(n=>[n.id,n]));
+const NS="http://www.w3.org/2000/svg";
+const $=x=>document.getElementById(x);
+let active=null;
+function svg(tag,attrs){const e=document.createElementNS(NS,tag);Object.keys(attrs).forEach(k=>e.setAttribute(k,attrs[k]));return e}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
+const edgeRoot=$("edges"),nodeRoot=$("nodes");
+links.forEach(l=>{const a=ns.get(l.a),b=ns.get(l.b),e=svg("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,class:"link","data-id":l.id,tabindex:0,role:"button","aria-label":a.name+" и "+b.name});e.addEventListener("click",()=>show(l.id));e.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();show(l.id)}});edgeRoot.append(e);});
+nodes.forEach(n=>{const e=svg("g",{class:"node"+(n.nonfiction?" nf":""),"data-node":n.id,tabindex:0,role:"button","aria-label":"Показать связи произведения "+n.name});const r=svg("rect",{x:n.x-91,y:n.y-24,width:182,height:48});const t=svg("text",{x:n.x,y:n.y+4,"text-anchor":"middle"});t.textContent=n.name;e.append(r,t);e.addEventListener("click",()=>focusNode(n.id));e.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();focusNode(n.id)}});nodeRoot.append(e);});
+function show(id){active=id;const l=links.find(e=>e.id===id);const a=ns.get(l.a),b=ns.get(l.b);$("details").innerHTML="<span class='kicker'>Паспорт связи</span><p class='dataTitle'>"+safe(a.name)+" / "+safe(b.name)+"</p><p class='status'>"+safe(l.status)+"</p><dl><dt>Произведение с лакуной</dt><dd>"+safe(a.name)+"</dd><dt>Контекст для дополнения</dt><dd>"+safe(b.name)+"</dd><dt>Вопрос</dt><dd>"+safe(l.question)+"</dd><dt>Тип</dt><dd>"+safe(l.type)+"</dd><dt>Переносимый контекст</dt><dd>"+safe(l.transfer)+"</dd><dt>Контрсвязь</dt><dd>"+safe(l.counter)+"</dd><dt>Residual / Неизвестное</dt><dd>"+safe(l.residual)+"</dd></dl>";
+refresh();}
+function focusNode(id){const first=links.find(l=>l.a===id||l.b===id);if(first)show(first.id);}
+function refresh(){const q=$("search").value.toLowerCase().trim(),c=$("cluster").value;const allowed=new Set(links.filter(l=>(c==="all"||l.g===c)&&(q===""||ns.get(l.a).name.toLowerCase().includes(q)||ns.get(l.b).name.toLowerCase().includes(q))).map(l=>l.id));edgeRoot.querySelectorAll(".link").forEach(e=>{const ok=allowed.has(e.dataset.id);e.style.display=ok?"":"none";e.classList.toggle("active",ok&&active===e.dataset.id);e.classList.toggle("faded",ok&&active!==null&&active!==e.dataset.id)});
+const visibleNodes=new Set(links.filter(l=>allowed.has(l.id)).flatMap(l=>[l.a,l.b]));nodeRoot.querySelectorAll(".node").forEach(e=>{e.classList.toggle("faded",!visibleNodes.has(e.dataset.node));const chosen=links.find(l=>l.id===active);e.classList.toggle("active",!!(chosen&&(chosen.a===e.dataset.node||chosen.b===e.dataset.node)))});
+$("cases").innerHTML="";
+links.filter(l=>allowed.has(l.id)).forEach(l=>{const card=document.createElement("article");card.className="case";const a=ns.get(l.a),b=ns.get(l.b);card.innerHTML="<strong>"+safe(a.name)+" и "+safe(b.name)+"</strong><p>"+safe(l.question)+"</p>";const btn=document.createElement("button");btn.type="button";btn.textContent="Открыть паспорт";btn.addEventListener("click",()=>show(l.id));card.append(btn);$("cases").append(card)});
+if(!$("cases").children.length){const p=document.createElement("p");p.textContent="Для текущего фильтра связей не найдено."; $("cases").append(p)}
+}
+$("cluster").addEventListener("change",refresh);$("search").addEventListener("input",refresh);
+$("reset").addEventListener("click",()=>{$("cluster").value="all";$("search").value="";active=null;$("details").innerHTML="<span class='kicker'>Паспорт связи</span><h2>Выберите линию</h2><p class='small'>Каждое дополнение сохраняет остаток неизвестного.</p>";refresh()});
+refresh();
+</script>
+</body>
+</html>
