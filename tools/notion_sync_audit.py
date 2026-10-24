@@ -23,6 +23,10 @@ def request(path):
         except HTTPError as e:
             if e.code==429 and attempt<6:
                 time.sleep(float(e.headers.get("Retry-After","2"))+.5); continue
+            if e.code==404:
+                raise RuntimeError("Notion API returned 404 for requested resource. Check that the Notion integration is connected to the main Story-X archive page and has access to its child pages; also verify NOTION_PARENT_PAGE_ID.") from None
+            if e.code in (401,403):
+                raise RuntimeError("Notion authentication or permissions rejected (HTTP %s). Verify NOTION_TOKEN secret and integration Read content permission." % e.code) from None
             raise
 
 def children(block):
