@@ -5,6 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
+from urllib.parse import unquote
 
 API="https://api.notion.com/v1"
 ROOT=os.environ.get("NOTION_PARENT_PAGE_ID","403d1323-8599-817f-855b-e71fde012476")
@@ -39,13 +40,25 @@ def text_blocks(page):
             obj=b.get(b.get("type",""),{})
             if "rich_text" in obj:
                 for rich in obj["rich_text"]:
-                    parts.append(rich.get("plain_text",""))
+                    parts.append("".join(r.get("plain_text","") for r in obj["rich_text"]))
+                for rich in obj["rich_text"]:
                     if rich.get("href"): parts.append(rich["href"])
             elif b.get("type")=="bookmark": parts.append(obj.get("url",""))
             if b.get("has_children") and b.get("type")!="child_page" and depth<8:
                 scan(b["id"],depth+1)
     scan(page,0)
     return "\n\n".join(parts)
+
+def identify_source(body, known):
+    """Require a labeled source reference; ignore cross-links to other chapters."""
+    lines=body.splitlines()
+    candidates=set()
+    for i,line in enumerate(lines):
+        if SOURCE_LINE.search(line):
+            segment=" ".join(lines[i:i+3])
+            candidates.update(unquote(p.rstrip(".,;")) for p in SRC.findall(segment))
+            candidates.update(p.strip() for p in FILE.findall(segment))
+    return sorted(p for p in candidates if p in known)
 
 def norm(s):
     s=html.unescape(s)
@@ -58,7 +71,7 @@ def main():
     if not TOKEN: sys.exit("Missing NOTION_TOKEN repository secret.")
     repo=Path(".")
     tracked=[p.decode() for p in subprocess.check_output(["git","ls-files","-z"]).split(b"\0") if p]
-    tracked=sorted(p for p in tracked if not p.startswith(".github/workflows/notion-sync-audit") and p!="tools/notion_sync_audit.py")
+    tracked=sorted(p for p in tracked if p.lower().endswith((".md", ".html")) and Path(p).is_file())
     known=set(tracked)
     pages=[(b["id"],b["child_page"].get("title","")) for b in children(ROOT)
            if b.get("type")=="child_page" and (b["child_page"].get("title","").startswith("Архив оригинала") or b["child_page"].get("title","").startswith("Сюжет Икс — источник"))]
@@ -66,8 +79,7 @@ def main():
     for index,(pid,title) in enumerate(pages,1):
         try:
             text=text_blocks(pid)
-            paths={p for p in SRC.findall(text) if p in known}
-            paths.update(p.strip() for p in FILE.findall(text) if p.strip() in known)
+            paths=set(identify_source(text, known))
             if len(paths)==1:
                 mapped[next(iter(paths))].append((pid,text))
             else: ambiguous.append({"notion_id":pid,"title":title,"source_paths":sorted(paths)})
@@ -87,7 +99,8 @@ def main():
             pars=[p.strip() for p in re.split(r"\n\s*\n",raw) if len(p.strip())>=100 and not p.lstrip().startswith(("#","- ","* ",">"))]
             total=len(pars)
             matched=max(sum(norm(p) in norm(body) for p in pars) for _,body in copies)
-            if matched<total: status="content_review" if len(copies)==1 else "duplicate_review"
+            if total==0 and len(copies)==1: status="short_text_review"
+            elif matched<total: status="content_review" if len(copies)==1 else "duplicate_review"
         sha=subprocess.check_output(["git","hash-object","--",path],text=True).strip()
         rows.append({"path":path,"git_blob_sha":sha,"status":status,"pages":len(copies),
                      "matched_paragraphs":matched,"checked_paragraphs":total,
