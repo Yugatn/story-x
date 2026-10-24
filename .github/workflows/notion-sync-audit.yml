@@ -1,0 +1,34 @@
+name: Story-X Notion audit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5 * * 0'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_PARENT_PAGE_ID: '403d1323-8599-817f-855b-e71fde012476'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify connection
+        run: |
+          if [ -z "$NOTION_TOKEN" ]; then
+            echo "Set repository secret NOTION_TOKEN and grant the integration access to the Story-X archive." >&2
+            exit 1
+          fi
+      - name: Audit archive without modifying content
+        run: python3 tools/notion_sync_audit.py
+      - name: Save CSV JSON and Markdown report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notion-audit
+          path: notion-audit-output/
+          if-no-files-found: ignore
+          retention-days: 30
