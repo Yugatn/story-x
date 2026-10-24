@@ -13,6 +13,8 @@ TOKEN=os.environ.get("NOTION_TOKEN")
 SRC=re.compile(r"github\.com/Yugatn/story-x/blob/(?:main|master)/([^\s)\]>\"']+)",re.I)
 FILE=re.compile(r"(?:Исходный файл|Источник файла):\s*`?([\w./ -]+\.(?:md|html))",re.I)
 
+SOURCE_LINE=re.compile(r"(?:Источник|Оригинал на GitHub|Исходный файл|Источник файла)\s*:", re.I)
+
 def request(path):
     for attempt in range(7):
         try:
@@ -39,8 +41,7 @@ def text_blocks(page):
         for b in children(block):
             obj=b.get(b.get("type",""),{})
             if "rich_text" in obj:
-                for rich in obj["rich_text"]:
-                    parts.append("".join(r.get("plain_text","") for r in obj["rich_text"]))
+                parts.append("".join(r.get("plain_text","") for r in obj["rich_text"]))
                 for rich in obj["rich_text"]:
                     if rich.get("href"): parts.append(rich["href"])
             elif b.get("type")=="bookmark": parts.append(obj.get("url",""))
