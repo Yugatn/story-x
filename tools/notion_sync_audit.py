@@ -63,6 +63,9 @@ def identify_source(body, known):
             segment=" ".join(lines[i:i+3])
             candidates.update(unquote(p.rstrip(".,;")) for p in SRC.findall(segment))
             candidates.update(p.strip() for p in FILE.findall(segment))
+            # The source filename may contain apostrophes or other punctuation.
+            # Match complete known paths only in a labeled source segment.
+            candidates.update(path for path in known if path in segment)
     return sorted(p for p in candidates if p in known)
 
 def norm(s):
