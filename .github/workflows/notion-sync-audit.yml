@@ -16,6 +16,8 @@ jobs:
       NOTION_PARENT_PAGE_ID: '403d1323-8599-817f-855b-e71fde012476'
     steps:
       - uses: actions/checkout@v4
+      - name: Test source mapping without secrets
+        run: python3 -m unittest discover -s tools -p "test_notion_sync_audit.py" -v
       - name: Verify connection
         run: |
           if [ -z "$NOTION_TOKEN" ]; then
