@@ -24,7 +24,7 @@
 | [`212_CHAPTER_172_THE_SYMBOL.md`](./212_CHAPTER_172_THE_SYMBOL.md) | 1619 | Очередь на содержательную проверку |
 | [`219_CHAPTER_179_BETWEEN_DIMENSIONS.md`](./219_CHAPTER_179_BETWEEN_DIMENSIONS.md) | 1628 | Очередь на содержательную проверку |
 | [`209_CHAPTER_169_THE_WORD_REVOLUTION.md`](./209_CHAPTER_169_THE_WORD_REVOLUTION.md) | 1633 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`47_CHAPTER_15_THE_VISITOR.md`](./47_CHAPTER_15_THE_VISITOR.md) | 1639 | Очередь на содержательную проверку |
+| [`47_CHAPTER_15_THE_VISITOR.md`](./47_CHAPTER_15_THE_VISITOR.md) | 1639 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`222_CHAPTER_182_THE_FIRST_TEACHER.md`](./222_CHAPTER_182_THE_FIRST_TEACHER.md) | 1669 | Очередь на содержательную проверку |
 | [`217_CHAPTER_177_THE_BEARD_GROWS.md`](./217_CHAPTER_177_THE_BEARD_GROWS.md) | 1683 | Очередь на содержательную проверку |
 | [`216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md`](./216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md) | 1684 | Очередь на содержательную проверку |
@@ -41,7 +41,7 @@
 | [`76_CHAPTER_41_THE_MEMORY_ARCHIVE.md`](./76_CHAPTER_41_THE_MEMORY_ARCHIVE.md) | 1837 | Очередь на содержательную проверку |
 | [`206_CHAPTER_166_THE_NEW_BLOG.md`](./206_CHAPTER_166_THE_NEW_BLOG.md) | 1843 | Расширено: сцена вместо конспекта; третья редакция |
 | [`82_CHAPTER_46_THE_MONARCH.md`](./82_CHAPTER_46_THE_MONARCH.md) | 1851 | Очередь на содержательную проверку |
-| [`27_CHAPTER_11_MIRA.md`](./27_CHAPTER_11_MIRA.md) | 1858 | Очередь на содержательную проверку |
+| [`27_CHAPTER_11_MIRA.md`](./27_CHAPTER_11_MIRA.md) | 1858 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md`](./91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md) | 1859 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`21_CHAPTER_05_TRACE.md`](./21_CHAPTER_05_TRACE.md) | 1865 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`223_CHAPTER_183_THE_MANY_LIVES.md`](./223_CHAPTER_183_THE_MANY_LIVES.md) | 1884 | Очередь на содержательную проверку |
@@ -65,7 +65,7 @@
 | [`204_CHAPTER_164_THE_SHAVED_REVOLUTION.md`](./204_CHAPTER_164_THE_SHAVED_REVOLUTION.md) | 2032 | Очередь на содержательную проверку |
 | [`180_CHAPTER_140_THREE_YEARS.md`](./180_CHAPTER_140_THREE_YEARS.md) | 2047 | Очередь на содержательную проверку |
 | [`85_CHAPTER_49_THE_FIRST_REBELLION.md`](./85_CHAPTER_49_THE_FIRST_REBELLION.md) | 2069 | Очередь на содержательную проверку |
-| [`25_CHAPTER_09_SADHU.md`](./25_CHAPTER_09_SADHU.md) | 2077 | Очередь на содержательную проверку |
+| [`25_CHAPTER_09_SADHU.md`](./25_CHAPTER_09_SADHU.md) | 2077 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`186_CHAPTER_146_THE_CHILD.md`](./186_CHAPTER_146_THE_CHILD.md) | 2091 | Очередь на содержательную проверку |
 | [`193_CHAPTER_153_RESTORE.md`](./193_CHAPTER_153_RESTORE.md) | 2111 | Очередь на содержательную проверку |
 | [`97_CHAPTER_59_THE_TRIGGER.md`](./97_CHAPTER_59_THE_TRIGGER.md) | 2121 | Очередь на содержательную проверку |
@@ -77,18 +77,18 @@
 | [`81_CHAPTER_45_THE_REASON_FOR_THE_CROWN.md`](./81_CHAPTER_45_THE_REASON_FOR_THE_CROWN.md) | 2203 | Очередь на содержательную проверку |
 | [`231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md`](./231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md) | 2235 | Очередь на содержательную проверку |
 | [`197_CHAPTER_157_FREEDOM_AND_CHOICE.md`](./197_CHAPTER_157_FREEDOM_AND_CHOICE.md) | 2270 | Очередь на содержательную проверку |
-| [`44_CHAPTER_13_AI_2300.md`](./44_CHAPTER_13_AI_2300.md) | 2272 | Очередь на содержательную проверку |
-| [`24_CHAPTER_08_YUGATN.md`](./24_CHAPTER_08_YUGATN.md) | 2288 | Очередь на содержательную проверку |
+| [`44_CHAPTER_13_AI_2300.md`](./44_CHAPTER_13_AI_2300.md) | 2272 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`24_CHAPTER_08_YUGATN.md`](./24_CHAPTER_08_YUGATN.md) | 2288 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`172_CHAPTER_132_THE_SOCIAL_MIND.md`](./172_CHAPTER_132_THE_SOCIAL_MIND.md) | 2296 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`185_CHAPTER_145_SOBER.md`](./185_CHAPTER_145_SOBER.md) | 2326 | Очередь на содержательную проверку |
-| [`26_CHAPTER_10_PANDEMIC.md`](./26_CHAPTER_10_PANDEMIC.md) | 2333 | Очередь на содержательную проверку |
+| [`26_CHAPTER_10_PANDEMIC.md`](./26_CHAPTER_10_PANDEMIC.md) | 2333 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`22_CHAPTER_06_EUGENE.md`](./22_CHAPTER_06_EUGENE.md) | 2345 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`200_CHAPTER_160_CINEMA_CATHARSIS.md`](./200_CHAPTER_160_CINEMA_CATHARSIS.md) | 2352 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`198_CHAPTER_158_THE_PERCENTAGE.md`](./198_CHAPTER_158_THE_PERCENTAGE.md) | 2359 | Очередь на содержательную проверку |
 | [`188_CHAPTER_148_ST_NETWORK.md`](./188_CHAPTER_148_ST_NETWORK.md) | 2365 | Расширено: сцена вместо конспекта; третья редакция |
 | [`78_CHAPTER_43_THE_TEST.md`](./78_CHAPTER_43_THE_TEST.md) | 2380 | Очередь на содержательную проверку |
 | [`69_CHAPTER_35_THE_NESTED_WORLD.md`](./69_CHAPTER_35_THE_NESTED_WORLD.md) | 2382 | Очередь на содержательную проверку |
-| [`23_CHAPTER_07_TRANSCENDENT.md`](./23_CHAPTER_07_TRANSCENDENT.md) | 2389 | Очередь на содержательную проверку |
+| [`23_CHAPTER_07_TRANSCENDENT.md`](./23_CHAPTER_07_TRANSCENDENT.md) | 2389 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`74_CHAPTER_39_THE_SIX_WITNESSES.md`](./74_CHAPTER_39_THE_SIX_WITNESSES.md) | 2428 | Очередь на содержательную проверку |
 | [`181_CHAPTER_141_TEACHERS_AND_PARENTS.md`](./181_CHAPTER_141_TEACHERS_AND_PARENTS.md) | 2431 | Очередь на содержательную проверку |
 | [`189_CHAPTER_149_MODEL_CITIZEN.md`](./189_CHAPTER_149_MODEL_CITIZEN.md) | 2441 | Очередь на содержательную проверку |
@@ -109,7 +109,7 @@
 | [`229_CHAPTER_189_THE_BED_OF_NAILS.md`](./229_CHAPTER_189_THE_BED_OF_NAILS.md) | 2882 | Очередь на содержательную проверку |
 | [`190_CHAPTER_150_THREE_YEARS_WITHOUT_PRIVILEGES.md`](./190_CHAPTER_150_THREE_YEARS_WITHOUT_PRIVILEGES.md) | 2889 | Очередь на содержательную проверку |
 | [`177_CHAPTER_137_NOBODY_DID_IT.md`](./177_CHAPTER_137_NOBODY_DID_IT.md) | 2921 | Очередь на содержательную проверку |
-| [`43_CHAPTER_12_REALITY_ARCHIVE.md`](./43_CHAPTER_12_REALITY_ARCHIVE.md) | 2921 | Очередь на содержательную проверку |
+| [`43_CHAPTER_12_REALITY_ARCHIVE.md`](./43_CHAPTER_12_REALITY_ARCHIVE.md) | 2921 | Расширено и сверено с соседними главами — 25.10.2026 |
 | [`89_CHAPTER_52_THE_SHAVED_FACE.md`](./89_CHAPTER_52_THE_SHAVED_FACE.md) | 3064 | Очередь на содержательную проверку |
 | [`70_CHAPTER_36_THE_DREAM_INSIDE_THE_MODEL.md`](./70_CHAPTER_36_THE_DREAM_INSIDE_THE_MODEL.md) | 3276 | Очередь на содержательную проверку |
 | [`80_STORY_X_ARC_II.md`](./80_STORY_X_ARC_II.md) | 3866 | Очередь на содержательную проверку |
@@ -143,3 +143,7 @@
 - В [главе 286](./286_CHAPTER_MESSAGE_BEFORE_SENDING.md) и [главе 426](./426_CHAPTER_THE_NETWORK_THAT_BREATHED.md) удалены служебные авторские оговорки и заметки о статусах, отвлекавшие от истории. Уточнения о моделях, границах выводов и недопустимости присвоения чужой воли фиксируются в канонической документации.
 
 **Редакторское правило третьего прохода:** «смартфон — острие шпаги в руках поэта» является метафорой влияния, а не сверхспособностью. После отправки сообщения персонаж утрачивает контроль над реакциями других. Даже небольшое событие может иметь продолжение, но его причины нельзя полностью присвоить одному автору.
+
+## Третий редакционный проход — главы 7–13 и 15
+
+Дополнительно преобразованы восемь коротких глав ранней арки. Их линии связаны с ранее отредактированными главами 1–6 и полноценными главами 14 и 16; существующие названия и пути сохранены. В частности, Мира получила самостоятельную архивную деятельность, которой не управляет Югатн, а проблема доступа к чужим голосам и фотографиям показана в сценах. Исследовательские пояснения вынесены в CANON.md и EDITORIAL_EXPANSION_PLAN.md. Не удалять и не копировать эти главы в новые номера; в Notion изменять только действующие страницы, не архивы оригиналов.
