@@ -18,8 +18,8 @@
 | Файл в `main` на момент снимка | Размер, байты | Редакционное состояние |
 |---|---:|---|
 | [`94_CHAPTER_57_THE_RETURN_OF_THE_BEARD.md`](./94_CHAPTER_57_THE_RETURN_OF_THE_BEARD.md) | 1504 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`20_CHAPTER_04_OTHER.md`](./20_CHAPTER_04_OTHER.md) | 1522 | Очередь на содержательную проверку |
-| [`17_CHAPTER_01_OBSERVER.md`](./17_CHAPTER_01_OBSERVER.md) | 1551 | Очередь на содержательную проверку |
+| [`20_CHAPTER_04_OTHER.md`](./20_CHAPTER_04_OTHER.md) | 1522 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
+| [`17_CHAPTER_01_OBSERVER.md`](./17_CHAPTER_01_OBSERVER.md) | 1551 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`183_CHAPTER_143_THE_RISK.md`](./183_CHAPTER_143_THE_RISK.md) | 1567 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`212_CHAPTER_172_THE_SYMBOL.md`](./212_CHAPTER_172_THE_SYMBOL.md) | 1619 | Очередь на содержательную проверку |
 | [`219_CHAPTER_179_BETWEEN_DIMENSIONS.md`](./219_CHAPTER_179_BETWEEN_DIMENSIONS.md) | 1628 | Очередь на содержательную проверку |
@@ -43,20 +43,20 @@
 | [`82_CHAPTER_46_THE_MONARCH.md`](./82_CHAPTER_46_THE_MONARCH.md) | 1851 | Очередь на содержательную проверку |
 | [`27_CHAPTER_11_MIRA.md`](./27_CHAPTER_11_MIRA.md) | 1858 | Очередь на содержательную проверку |
 | [`91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md`](./91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md) | 1859 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`21_CHAPTER_05_TRACE.md`](./21_CHAPTER_05_TRACE.md) | 1865 | Очередь на содержательную проверку |
+| [`21_CHAPTER_05_TRACE.md`](./21_CHAPTER_05_TRACE.md) | 1865 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`223_CHAPTER_183_THE_MANY_LIVES.md`](./223_CHAPTER_183_THE_MANY_LIVES.md) | 1884 | Очередь на содержательную проверку |
 | [`199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md`](./199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md) | 1889 | Очередь на содержательную проверку |
 | [`84_CHAPTER_48_THE_LAW_OF_DEVELOPMENT.md`](./84_CHAPTER_48_THE_LAW_OF_DEVELOPMENT.md) | 1910 | Очередь на содержательную проверку |
 | [`214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md`](./214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md) | 1916 | Очередь на содержательную проверку |
 | [`196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md`](./196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md) | 1917 | Очередь на содержательную проверку |
 | [`73_CHAPTER_38_THE_MESSAGE_BEFORE_BIRTH.md`](./73_CHAPTER_38_THE_MESSAGE_BEFORE_BIRTH.md) | 1917 | Очередь на содержательную проверку |
-| [`18_CHAPTER_02_SMILE.md`](./18_CHAPTER_02_SMILE.md) | 1927 | Очередь на содержательную проверку |
+| [`18_CHAPTER_02_SMILE.md`](./18_CHAPTER_02_SMILE.md) | 1927 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`92_CHAPTER_55_THE_VIETNAM_TEST.md`](./92_CHAPTER_55_THE_VIETNAM_TEST.md) | 1936 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`195_CHAPTER_155_THE_FIRST_AUDIT.md`](./195_CHAPTER_155_THE_FIRST_AUDIT.md) | 1951 | Очередь на содержательную проверку |
 | [`71_CHAPTER_37_THE_X_SIGNAL.md`](./71_CHAPTER_37_THE_X_SIGNAL.md) | 1952 | Очередь на содержательную проверку |
 | [`208_CHAPTER_168_THE_TEXT.md`](./208_CHAPTER_168_THE_TEXT.md) | 1956 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`99_CHAPTER_61_THE_SECOND_SYMBOL.md`](./99_CHAPTER_61_THE_SECOND_SYMBOL.md) | 1966 | Очередь на содержательную проверку |
-| [`19_CHAPTER_03_TWO_JOURNALS.md`](./19_CHAPTER_03_TWO_JOURNALS.md) | 1983 | Очередь на содержательную проверку |
+| [`19_CHAPTER_03_TWO_JOURNALS.md`](./19_CHAPTER_03_TWO_JOURNALS.md) | 1983 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`205_CHAPTER_165_THE_INTERRUPTED_PLAN.md`](./205_CHAPTER_165_THE_INTERRUPTED_PLAN.md) | 1987 | Очередь на содержательную проверку |
 | [`75_CHAPTER_40_THE_AGENT_WITHOUT_A_MISSION.md`](./75_CHAPTER_40_THE_AGENT_WITHOUT_A_MISSION.md) | 1998 | Очередь на содержательную проверку |
 | [`86_CHAPTER_50_THE_CHOICE.md`](./86_CHAPTER_50_THE_CHOICE.md) | 2004 | Очередь на содержательную проверку |
@@ -79,10 +79,10 @@
 | [`197_CHAPTER_157_FREEDOM_AND_CHOICE.md`](./197_CHAPTER_157_FREEDOM_AND_CHOICE.md) | 2270 | Очередь на содержательную проверку |
 | [`44_CHAPTER_13_AI_2300.md`](./44_CHAPTER_13_AI_2300.md) | 2272 | Очередь на содержательную проверку |
 | [`24_CHAPTER_08_YUGATN.md`](./24_CHAPTER_08_YUGATN.md) | 2288 | Очередь на содержательную проверку |
-| [`172_CHAPTER_132_THE_SOCIAL_MIND.md`](./172_CHAPTER_132_THE_SOCIAL_MIND.md) | 2296 | Очередь на содержательную проверку |
+| [`172_CHAPTER_132_THE_SOCIAL_MIND.md`](./172_CHAPTER_132_THE_SOCIAL_MIND.md) | 2296 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`185_CHAPTER_145_SOBER.md`](./185_CHAPTER_145_SOBER.md) | 2326 | Очередь на содержательную проверку |
 | [`26_CHAPTER_10_PANDEMIC.md`](./26_CHAPTER_10_PANDEMIC.md) | 2333 | Очередь на содержательную проверку |
-| [`22_CHAPTER_06_EUGENE.md`](./22_CHAPTER_06_EUGENE.md) | 2345 | Очередь на содержательную проверку |
+| [`22_CHAPTER_06_EUGENE.md`](./22_CHAPTER_06_EUGENE.md) | 2345 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`200_CHAPTER_160_CINEMA_CATHARSIS.md`](./200_CHAPTER_160_CINEMA_CATHARSIS.md) | 2352 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`198_CHAPTER_158_THE_PERCENTAGE.md`](./198_CHAPTER_158_THE_PERCENTAGE.md) | 2359 | Очередь на содержательную проверку |
 | [`188_CHAPTER_148_ST_NETWORK.md`](./188_CHAPTER_148_ST_NETWORK.md) | 2365 | Очередь на содержательную проверку |
@@ -92,7 +92,7 @@
 | [`74_CHAPTER_39_THE_SIX_WITNESSES.md`](./74_CHAPTER_39_THE_SIX_WITNESSES.md) | 2428 | Очередь на содержательную проверку |
 | [`181_CHAPTER_141_TEACHERS_AND_PARENTS.md`](./181_CHAPTER_141_TEACHERS_AND_PARENTS.md) | 2431 | Очередь на содержательную проверку |
 | [`189_CHAPTER_149_MODEL_CITIZEN.md`](./189_CHAPTER_149_MODEL_CITIZEN.md) | 2441 | Очередь на содержательную проверку |
-| [`173_CHAPTER_133_THE_FORGOTTEN_BOOK.md`](./173_CHAPTER_133_THE_FORGOTTEN_BOOK.md) | 2443 | Очередь на содержательную проверку |
+| [`173_CHAPTER_133_THE_FORGOTTEN_BOOK.md`](./173_CHAPTER_133_THE_FORGOTTEN_BOOK.md) | 2443 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`211_CHAPTER_171_THE_MASK.md`](./211_CHAPTER_171_THE_MASK.md) | 2492 | Очередь на содержательную проверку |
 | [`230_CHAPTER_190_TAPAS.md`](./230_CHAPTER_190_TAPAS.md) | 2495 | Очередь на содержательную проверку |
 | [`96_CHAPTER_58_THE_ROUND_GLASSES.md`](./96_CHAPTER_58_THE_ROUND_GLASSES.md) | 2504 | Очередь на содержательную проверку |
@@ -128,3 +128,9 @@
 ## Приоритет следующего прохода
 
 Кандидаты на разбор после двенадцати исправленных: `17_CHAPTER_01_OBSERVER.md`, `20_CHAPTER_04_OTHER.md`, `173_CHAPTER_133_THE_FORGOTTEN_BOOK.md`, `172_CHAPTER_132_THE_SOCIAL_MIND.md`, `94_CHAPTER_57_THE_RETURN_OF_THE_BEARD.md` (проверить соединение с главой 56). Выбор окончательного приоритета требует чтения соседних глав, а не только их размера.
+
+## Второй проход 25 октября — художественная сцена вместо заметки
+
+После чтения глав и соседних материалов литературно расширены главы 1–6, 132 и 133. Сохранены узнаваемые ключевые события: улыбка и незнакомец, два журнала, право Миры возразить, появление Конструкта, имя Юджин и архивный поиск работ Выготского. Служебный блок статусов удалён из художественной главы 133; канонический смысл перенесён в драматические действия архивистки и героев. Убраны повторные технические конспекты после сцен в главах 143, 144, 160 и 168–170. Изменения записаны в Git без удаления истории. Навигация по исходным главам остаётся прежней.
+
+**Важно:** все 97 первоначально коротких файлов перечислены по размерам исходного снимка. После редакции размеры части файлов изменились; эта таблица остаётся историей отбора, а не текущим рейтингом недостаточной длины. Новые приоритеты определяются повторным чтением, не автоматически по байтам.
