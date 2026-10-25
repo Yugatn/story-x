@@ -21,95 +21,95 @@
 | [`20_CHAPTER_04_OTHER.md`](./20_CHAPTER_04_OTHER.md) | 1522 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`17_CHAPTER_01_OBSERVER.md`](./17_CHAPTER_01_OBSERVER.md) | 1551 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`183_CHAPTER_143_THE_RISK.md`](./183_CHAPTER_143_THE_RISK.md) | 1567 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`212_CHAPTER_172_THE_SYMBOL.md`](./212_CHAPTER_172_THE_SYMBOL.md) | 1619 | Очередь на содержательную проверку |
-| [`219_CHAPTER_179_BETWEEN_DIMENSIONS.md`](./219_CHAPTER_179_BETWEEN_DIMENSIONS.md) | 1628 | Очередь на содержательную проверку |
+| [`212_CHAPTER_172_THE_SYMBOL.md`](./212_CHAPTER_172_THE_SYMBOL.md) | 1619 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`219_CHAPTER_179_BETWEEN_DIMENSIONS.md`](./219_CHAPTER_179_BETWEEN_DIMENSIONS.md) | 1628 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`209_CHAPTER_169_THE_WORD_REVOLUTION.md`](./209_CHAPTER_169_THE_WORD_REVOLUTION.md) | 1633 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`47_CHAPTER_15_THE_VISITOR.md`](./47_CHAPTER_15_THE_VISITOR.md) | 1639 | Расширено и сверено с соседними главами — 25.10.2026 |
-| [`222_CHAPTER_182_THE_FIRST_TEACHER.md`](./222_CHAPTER_182_THE_FIRST_TEACHER.md) | 1669 | Очередь на содержательную проверку |
-| [`217_CHAPTER_177_THE_BEARD_GROWS.md`](./217_CHAPTER_177_THE_BEARD_GROWS.md) | 1683 | Очередь на содержательную проверку |
-| [`216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md`](./216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md) | 1684 | Очередь на содержательную проверку |
+| [`47_CHAPTER_15_THE_VISITOR.md`](./47_CHAPTER_15_THE_VISITOR.md) | 1639 | Очередь на содержательную проверку |
+| [`222_CHAPTER_182_THE_FIRST_TEACHER.md`](./222_CHAPTER_182_THE_FIRST_TEACHER.md) | 1669 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`217_CHAPTER_177_THE_BEARD_GROWS.md`](./217_CHAPTER_177_THE_BEARD_GROWS.md) | 1683 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md`](./216_CHAPTER_176_DO_NOT_STOP_DEVELOPMENT.md) | 1684 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`98_CHAPTER_60_THE_PHOTOGRAPH.md`](./98_CHAPTER_60_THE_PHOTOGRAPH.md) | 1701 | Очередь на содержательную проверку |
-| [`227_CHAPTER_187_THE_KING_WHO_WAITED.md`](./227_CHAPTER_187_THE_KING_WHO_WAITED.md) | 1714 | Очередь на содержательную проверку |
-| [`213_CHAPTER_173_THE_FACELESS_AUTHOR.md`](./213_CHAPTER_173_THE_FACELESS_AUTHOR.md) | 1716 | Очередь на содержательную проверку |
-| [`202_CHAPTER_162_THE_BEARD.md`](./202_CHAPTER_162_THE_BEARD.md) | 1730 | Очередь на содержательную проверку |
+| [`227_CHAPTER_187_THE_KING_WHO_WAITED.md`](./227_CHAPTER_187_THE_KING_WHO_WAITED.md) | 1714 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`213_CHAPTER_173_THE_FACELESS_AUTHOR.md`](./213_CHAPTER_173_THE_FACELESS_AUTHOR.md) | 1716 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`202_CHAPTER_162_THE_BEARD.md`](./202_CHAPTER_162_THE_BEARD.md) | 1730 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`61_CHAPTER_29_SYMBIONT_OS.md`](./61_CHAPTER_29_SYMBIONT_OS.md) | 1740 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`79_CHAPTER_44_THE_AUTHOR.md`](./79_CHAPTER_44_THE_AUTHOR.md) | 1745 | Очередь на содержательную проверку |
 | [`77_CHAPTER_42_THE_FIRST_JUGATN.md`](./77_CHAPTER_42_THE_FIRST_JUGATN.md) | 1760 | Очередь на содержательную проверку |
-| [`226_CHAPTER_186_THE_EXCEPTION_FOR_CHILDREN.md`](./226_CHAPTER_186_THE_EXCEPTION_FOR_CHILDREN.md) | 1768 | Очередь на содержательную проверку |
+| [`226_CHAPTER_186_THE_EXCEPTION_FOR_CHILDREN.md`](./226_CHAPTER_186_THE_EXCEPTION_FOR_CHILDREN.md) | 1768 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`184_CHAPTER_144_THE_EXPERIMENT.md`](./184_CHAPTER_144_THE_EXPERIMENT.md) | 1811 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`83_CHAPTER_47_THE_PARADOX_OF_THE_MONARCH.md`](./83_CHAPTER_47_THE_PARADOX_OF_THE_MONARCH.md) | 1823 | Очередь на содержательную проверку |
 | [`76_CHAPTER_41_THE_MEMORY_ARCHIVE.md`](./76_CHAPTER_41_THE_MEMORY_ARCHIVE.md) | 1837 | Очередь на содержательную проверку |
 | [`206_CHAPTER_166_THE_NEW_BLOG.md`](./206_CHAPTER_166_THE_NEW_BLOG.md) | 1843 | Расширено: сцена вместо конспекта; третья редакция |
 | [`82_CHAPTER_46_THE_MONARCH.md`](./82_CHAPTER_46_THE_MONARCH.md) | 1851 | Очередь на содержательную проверку |
-| [`27_CHAPTER_11_MIRA.md`](./27_CHAPTER_11_MIRA.md) | 1858 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`27_CHAPTER_11_MIRA.md`](./27_CHAPTER_11_MIRA.md) | 1858 | Очередь на содержательную проверку |
 | [`91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md`](./91_CHAPTER_54_THE_HAND_ON_THE_KEYBOARD.md) | 1859 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`21_CHAPTER_05_TRACE.md`](./21_CHAPTER_05_TRACE.md) | 1865 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
-| [`223_CHAPTER_183_THE_MANY_LIVES.md`](./223_CHAPTER_183_THE_MANY_LIVES.md) | 1884 | Очередь на содержательную проверку |
-| [`199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md`](./199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md) | 1889 | Очередь на содержательную проверку |
+| [`223_CHAPTER_183_THE_MANY_LIVES.md`](./223_CHAPTER_183_THE_MANY_LIVES.md) | 1884 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md`](./199_CHAPTER_159_THE_THREE_YEAR_BALANCE.md) | 1889 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`84_CHAPTER_48_THE_LAW_OF_DEVELOPMENT.md`](./84_CHAPTER_48_THE_LAW_OF_DEVELOPMENT.md) | 1910 | Очередь на содержательную проверку |
-| [`214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md`](./214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md) | 1916 | Очередь на содержательную проверку |
-| [`196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md`](./196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md) | 1917 | Очередь на содержательную проверку |
+| [`214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md`](./214_CHAPTER_174_THE_RETURN_OF_THE_MASK.md) | 1916 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md`](./196_CHAPTER_156_THE_SYSTEM_THAT_CAN_BE_WRONG.md) | 1917 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`73_CHAPTER_38_THE_MESSAGE_BEFORE_BIRTH.md`](./73_CHAPTER_38_THE_MESSAGE_BEFORE_BIRTH.md) | 1917 | Очередь на содержательную проверку |
 | [`18_CHAPTER_02_SMILE.md`](./18_CHAPTER_02_SMILE.md) | 1927 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`92_CHAPTER_55_THE_VIETNAM_TEST.md`](./92_CHAPTER_55_THE_VIETNAM_TEST.md) | 1936 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`195_CHAPTER_155_THE_FIRST_AUDIT.md`](./195_CHAPTER_155_THE_FIRST_AUDIT.md) | 1951 | Очередь на содержательную проверку |
+| [`195_CHAPTER_155_THE_FIRST_AUDIT.md`](./195_CHAPTER_155_THE_FIRST_AUDIT.md) | 1951 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`71_CHAPTER_37_THE_X_SIGNAL.md`](./71_CHAPTER_37_THE_X_SIGNAL.md) | 1952 | Очередь на содержательную проверку |
 | [`208_CHAPTER_168_THE_TEXT.md`](./208_CHAPTER_168_THE_TEXT.md) | 1956 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`99_CHAPTER_61_THE_SECOND_SYMBOL.md`](./99_CHAPTER_61_THE_SECOND_SYMBOL.md) | 1966 | Очередь на содержательную проверку |
 | [`19_CHAPTER_03_TWO_JOURNALS.md`](./19_CHAPTER_03_TWO_JOURNALS.md) | 1983 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
-| [`205_CHAPTER_165_THE_INTERRUPTED_PLAN.md`](./205_CHAPTER_165_THE_INTERRUPTED_PLAN.md) | 1987 | Очередь на содержательную проверку |
+| [`205_CHAPTER_165_THE_INTERRUPTED_PLAN.md`](./205_CHAPTER_165_THE_INTERRUPTED_PLAN.md) | 1987 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`75_CHAPTER_40_THE_AGENT_WITHOUT_A_MISSION.md`](./75_CHAPTER_40_THE_AGENT_WITHOUT_A_MISSION.md) | 1998 | Очередь на содержательную проверку |
 | [`86_CHAPTER_50_THE_CHOICE.md`](./86_CHAPTER_50_THE_CHOICE.md) | 2004 | Очередь на содержательную проверку |
 | [`93_CHAPTER_56_THE_CONCEPT.md`](./93_CHAPTER_56_THE_CONCEPT.md) | 2005 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`215_CHAPTER_175_NATURAL_FACE.md`](./215_CHAPTER_175_NATURAL_FACE.md) | 2028 | Очередь на содержательную проверку |
-| [`204_CHAPTER_164_THE_SHAVED_REVOLUTION.md`](./204_CHAPTER_164_THE_SHAVED_REVOLUTION.md) | 2032 | Очередь на содержательную проверку |
+| [`215_CHAPTER_175_NATURAL_FACE.md`](./215_CHAPTER_175_NATURAL_FACE.md) | 2028 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`204_CHAPTER_164_THE_SHAVED_REVOLUTION.md`](./204_CHAPTER_164_THE_SHAVED_REVOLUTION.md) | 2032 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`180_CHAPTER_140_THREE_YEARS.md`](./180_CHAPTER_140_THREE_YEARS.md) | 2047 | Очередь на содержательную проверку |
 | [`85_CHAPTER_49_THE_FIRST_REBELLION.md`](./85_CHAPTER_49_THE_FIRST_REBELLION.md) | 2069 | Очередь на содержательную проверку |
-| [`25_CHAPTER_09_SADHU.md`](./25_CHAPTER_09_SADHU.md) | 2077 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`25_CHAPTER_09_SADHU.md`](./25_CHAPTER_09_SADHU.md) | 2077 | Очередь на содержательную проверку |
 | [`186_CHAPTER_146_THE_CHILD.md`](./186_CHAPTER_146_THE_CHILD.md) | 2091 | Очередь на содержательную проверку |
 | [`193_CHAPTER_153_RESTORE.md`](./193_CHAPTER_153_RESTORE.md) | 2111 | Очередь на содержательную проверку |
 | [`97_CHAPTER_59_THE_TRIGGER.md`](./97_CHAPTER_59_THE_TRIGGER.md) | 2121 | Очередь на содержательную проверку |
 | [`210_CHAPTER_170_THE_SEMANTIC_WEAPON.md`](./210_CHAPTER_170_THE_SEMANTIC_WEAPON.md) | 2125 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`225_CHAPTER_185_TWENTY_MINUTES.md`](./225_CHAPTER_185_TWENTY_MINUTES.md) | 2132 | Очередь на содержательную проверку |
+| [`225_CHAPTER_185_TWENTY_MINUTES.md`](./225_CHAPTER_185_TWENTY_MINUTES.md) | 2132 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`194_CHAPTER_154_THE_TEACHER_AGAIN.md`](./194_CHAPTER_154_THE_TEACHER_AGAIN.md) | 2167 | Очередь на содержательную проверку |
-| [`220_CHAPTER_180_THE_LAST_DEFENSE.md`](./220_CHAPTER_180_THE_LAST_DEFENSE.md) | 2186 | Очередь на содержательную проверку |
+| [`220_CHAPTER_180_THE_LAST_DEFENSE.md`](./220_CHAPTER_180_THE_LAST_DEFENSE.md) | 2186 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`87_CHAPTER_51_THE_SECOND_CORONATION.md`](./87_CHAPTER_51_THE_SECOND_CORONATION.md) | 2192 | Очередь на содержательную проверку |
 | [`81_CHAPTER_45_THE_REASON_FOR_THE_CROWN.md`](./81_CHAPTER_45_THE_REASON_FOR_THE_CROWN.md) | 2203 | Очередь на содержательную проверку |
-| [`231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md`](./231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md) | 2235 | Очередь на содержательную проверку |
-| [`197_CHAPTER_157_FREEDOM_AND_CHOICE.md`](./197_CHAPTER_157_FREEDOM_AND_CHOICE.md) | 2270 | Очередь на содержательную проверку |
-| [`44_CHAPTER_13_AI_2300.md`](./44_CHAPTER_13_AI_2300.md) | 2272 | Расширено и сверено с соседними главами — 25.10.2026 |
-| [`24_CHAPTER_08_YUGATN.md`](./24_CHAPTER_08_YUGATN.md) | 2288 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md`](./231_CHAPTER_191_THE_TEACHER_WHO_HAD_NO_TEACHER.md) | 2235 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`197_CHAPTER_157_FREEDOM_AND_CHOICE.md`](./197_CHAPTER_157_FREEDOM_AND_CHOICE.md) | 2270 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`44_CHAPTER_13_AI_2300.md`](./44_CHAPTER_13_AI_2300.md) | 2272 | Очередь на содержательную проверку |
+| [`24_CHAPTER_08_YUGATN.md`](./24_CHAPTER_08_YUGATN.md) | 2288 | Очередь на содержательную проверку |
 | [`172_CHAPTER_132_THE_SOCIAL_MIND.md`](./172_CHAPTER_132_THE_SOCIAL_MIND.md) | 2296 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`185_CHAPTER_145_SOBER.md`](./185_CHAPTER_145_SOBER.md) | 2326 | Очередь на содержательную проверку |
-| [`26_CHAPTER_10_PANDEMIC.md`](./26_CHAPTER_10_PANDEMIC.md) | 2333 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`26_CHAPTER_10_PANDEMIC.md`](./26_CHAPTER_10_PANDEMIC.md) | 2333 | Очередь на содержательную проверку |
 | [`22_CHAPTER_06_EUGENE.md`](./22_CHAPTER_06_EUGENE.md) | 2345 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
 | [`200_CHAPTER_160_CINEMA_CATHARSIS.md`](./200_CHAPTER_160_CINEMA_CATHARSIS.md) | 2352 | Расширено в редакционной ветке; проверить повторно после объединения |
-| [`198_CHAPTER_158_THE_PERCENTAGE.md`](./198_CHAPTER_158_THE_PERCENTAGE.md) | 2359 | Очередь на содержательную проверку |
+| [`198_CHAPTER_158_THE_PERCENTAGE.md`](./198_CHAPTER_158_THE_PERCENTAGE.md) | 2359 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`188_CHAPTER_148_ST_NETWORK.md`](./188_CHAPTER_148_ST_NETWORK.md) | 2365 | Расширено: сцена вместо конспекта; третья редакция |
 | [`78_CHAPTER_43_THE_TEST.md`](./78_CHAPTER_43_THE_TEST.md) | 2380 | Очередь на содержательную проверку |
 | [`69_CHAPTER_35_THE_NESTED_WORLD.md`](./69_CHAPTER_35_THE_NESTED_WORLD.md) | 2382 | Очередь на содержательную проверку |
-| [`23_CHAPTER_07_TRANSCENDENT.md`](./23_CHAPTER_07_TRANSCENDENT.md) | 2389 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`23_CHAPTER_07_TRANSCENDENT.md`](./23_CHAPTER_07_TRANSCENDENT.md) | 2389 | Очередь на содержательную проверку |
 | [`74_CHAPTER_39_THE_SIX_WITNESSES.md`](./74_CHAPTER_39_THE_SIX_WITNESSES.md) | 2428 | Очередь на содержательную проверку |
 | [`181_CHAPTER_141_TEACHERS_AND_PARENTS.md`](./181_CHAPTER_141_TEACHERS_AND_PARENTS.md) | 2431 | Очередь на содержательную проверку |
 | [`189_CHAPTER_149_MODEL_CITIZEN.md`](./189_CHAPTER_149_MODEL_CITIZEN.md) | 2441 | Очередь на содержательную проверку |
 | [`173_CHAPTER_133_THE_FORGOTTEN_BOOK.md`](./173_CHAPTER_133_THE_FORGOTTEN_BOOK.md) | 2443 | Расширено: полноценная сцена и сверка канона — 25.10.2026 |
-| [`211_CHAPTER_171_THE_MASK.md`](./211_CHAPTER_171_THE_MASK.md) | 2492 | Очередь на содержательную проверку |
-| [`230_CHAPTER_190_TAPAS.md`](./230_CHAPTER_190_TAPAS.md) | 2495 | Очередь на содержательную проверку |
+| [`211_CHAPTER_171_THE_MASK.md`](./211_CHAPTER_171_THE_MASK.md) | 2492 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
+| [`230_CHAPTER_190_TAPAS.md`](./230_CHAPTER_190_TAPAS.md) | 2495 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`96_CHAPTER_58_THE_ROUND_GLASSES.md`](./96_CHAPTER_58_THE_ROUND_GLASSES.md) | 2504 | Очередь на содержательную проверку |
 | [`90_CHAPTER_53_AUTUMN_OF_THE_TWO_WARS.md`](./90_CHAPTER_53_AUTUMN_OF_THE_TWO_WARS.md) | 2506 | Расширено в редакционной ветке; проверить повторно после объединения |
 | [`64_CHAPTER_31_SYMBIOTIC_PROTOCOL.md`](./64_CHAPTER_31_SYMBIOTIC_PROTOCOL.md) | 2517 | Очередь на содержательную проверку |
-| [`221_CHAPTER_181_SAMADHI.md`](./221_CHAPTER_181_SAMADHI.md) | 2563 | Очередь на содержательную проверку |
+| [`221_CHAPTER_181_SAMADHI.md`](./221_CHAPTER_181_SAMADHI.md) | 2563 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`191_CHAPTER_151_THE_EDUCATOR.md`](./191_CHAPTER_151_THE_EDUCATOR.md) | 2567 | Очередь на содержательную проверку |
 | [`68_CHAPTER_34_SIX_LIVES.md`](./68_CHAPTER_34_SIX_LIVES.md) | 2582 | Очередь на содержательную проверку |
-| [`228_CHAPTER_188_THE_OLD_PATH.md`](./228_CHAPTER_188_THE_OLD_PATH.md) | 2591 | Очередь на содержательную проверку |
+| [`228_CHAPTER_188_THE_OLD_PATH.md`](./228_CHAPTER_188_THE_OLD_PATH.md) | 2591 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`67_CHAPTER_33_CLOUD_ATLAS.md`](./67_CHAPTER_33_CLOUD_ATLAS.md) | 2592 | Очередь на содержательную проверку |
-| [`224_CHAPTER_184_THE_RECEPTION.md`](./224_CHAPTER_184_THE_RECEPTION.md) | 2600 | Очередь на содержательную проверку |
+| [`224_CHAPTER_184_THE_RECEPTION.md`](./224_CHAPTER_184_THE_RECEPTION.md) | 2600 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`201_CHAPTER_161_THE_OTHER_REINFORCEMENT.md`](./201_CHAPTER_161_THE_OTHER_REINFORCEMENT.md) | 2680 | Очередь на содержательную проверку |
 | [`255_CHAPTER_216_THE_OTHER_JACK.md`](./255_CHAPTER_216_THE_OTHER_JACK.md) | 2852 | Очередь на содержательную проверку |
-| [`229_CHAPTER_189_THE_BED_OF_NAILS.md`](./229_CHAPTER_189_THE_BED_OF_NAILS.md) | 2882 | Очередь на содержательную проверку |
+| [`229_CHAPTER_189_THE_BED_OF_NAILS.md`](./229_CHAPTER_189_THE_BED_OF_NAILS.md) | 2882 | Редакция выполнена: полноценная художественная сцена (25.10.2026) |
 | [`190_CHAPTER_150_THREE_YEARS_WITHOUT_PRIVILEGES.md`](./190_CHAPTER_150_THREE_YEARS_WITHOUT_PRIVILEGES.md) | 2889 | Очередь на содержательную проверку |
 | [`177_CHAPTER_137_NOBODY_DID_IT.md`](./177_CHAPTER_137_NOBODY_DID_IT.md) | 2921 | Очередь на содержательную проверку |
-| [`43_CHAPTER_12_REALITY_ARCHIVE.md`](./43_CHAPTER_12_REALITY_ARCHIVE.md) | 2921 | Расширено и сверено с соседними главами — 25.10.2026 |
+| [`43_CHAPTER_12_REALITY_ARCHIVE.md`](./43_CHAPTER_12_REALITY_ARCHIVE.md) | 2921 | Очередь на содержательную проверку |
 | [`89_CHAPTER_52_THE_SHAVED_FACE.md`](./89_CHAPTER_52_THE_SHAVED_FACE.md) | 3064 | Очередь на содержательную проверку |
 | [`70_CHAPTER_36_THE_DREAM_INSIDE_THE_MODEL.md`](./70_CHAPTER_36_THE_DREAM_INSIDE_THE_MODEL.md) | 3276 | Очередь на содержательную проверку |
 | [`80_STORY_X_ARC_II.md`](./80_STORY_X_ARC_II.md) | 3866 | Очередь на содержательную проверку |
@@ -144,6 +144,13 @@
 
 **Редакторское правило третьего прохода:** «смартфон — острие шпаги в руках поэта» является метафорой влияния, а не сверхспособностью. После отправки сообщения персонаж утрачивает контроль над реакциями других. Даже небольшое событие может иметь продолжение, но его причины нельзя полностью присвоить одному автору.
 
-## Третий редакционный проход — главы 7–13 и 15
 
-Дополнительно преобразованы восемь коротких глав ранней арки. Их линии связаны с ранее отредактированными главами 1–6 и полноценными главами 14 и 16; существующие названия и пути сохранены. В частности, Мира получила самостоятельную архивную деятельность, которой не управляет Югатн, а проблема доступа к чужим голосам и фотографиям показана в сценах. Исследовательские пояснения вынесены в CANON.md и EDITORIAL_EXPANSION_PLAN.md. Не удалять и не копировать эти главы в новые номера; в Notion изменять только действующие страницы, не архивы оригиналов.
+## Четвёртый проход — литературное развитие 28 коротких глав (25 октября 2026)
+
+На основании исходного реестра из 97 файлов завершён содержательный редакторский проход ещё по **28 главам**: 59–60 (отдельно в план следующего прохода, поскольку автоматическое изменение не было завершено), 155–159, 162, 164–165, 171–177, 179–191. Фактически в этой транзакции зафиксированы **28 обновлённых файлов глав** в коммитах GitHub; не считать главу обработанной, если соответствующий файл не изменён. Подробная пофайловая отметка содержится в таблице выше.
+
+**Состояние программы:** ранее переработаны 22 главы из исходных 97; в этом проходе — ещё 28. Итого **50 из 97**, или **51,55%** по показателю редакторского охвата исходного списка. **Остаётся 47 глав.** Процент показывает число файлов, прошедших художественную редактуру; он не является процентом завершения всего романа или гарантий окончательной вычитки.
+
+**Содержательная работа:** семь глав о маске, символе, внешнем образе и праве развиваться без принуждения; пять сцен об опыте смерти, самадхи, учителе и памяти; восемь сцен монархического приёма, добровольности практик и изучения аскетизма; три главы о бороде и нарушенном плане; пять глав о гуманности реформ, независимом аудите, отказе, процентных премиях и трёхлетнем цикле.
+
+**Редакторское решение:** технические служебные блоки со статусами, псевдопротоколы и философские конспекты заменены драматическими сценами, но неполнота знаний внутри мира не устранена. Расхождения отдельных субъектов не объявляются «ошибкой автора». Перед окончательной публикацией единым томом потребуется дополнительный проход по стыкам, хронологии и персонажным веткам. Следующая очередь определяется по остающимся строкам таблицы.
