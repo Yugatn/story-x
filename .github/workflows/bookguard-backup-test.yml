@@ -36,6 +36,8 @@ jobs:
 
       - name: Remove synthetic fixture from worktree
         run: rm -f bookguard-transfer-fixture.zip
+      - name: Inspect working tree before immutable backup
+        run: git status --short --untracked-files=all
       - name: Create real Git history bundle and verify restore
         run: |
           mkdir -p "$RUNNER_TEMP/bookguard-real"
