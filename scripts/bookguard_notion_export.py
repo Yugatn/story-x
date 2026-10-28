@@ -41,8 +41,14 @@ def main():
         if page_id in visited:
             continue
         visited.add(page_id)
-        page = request("pages/" + page_id, token)
-        write_json(dest / (page_id + ".page.json"), page)
+        try:
+            page = request("pages/" + page_id, token)
+            write_json(dest / (page_id + ".page.json"), page)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 404:
+                raise
+            block = request("blocks/" + page_id, token)
+            write_json(dest / (page_id + ".block.json"), block)
         blocks, cursor = [], None
         while True:
             path = "blocks/" + page_id + "/children?page_size=100"
