@@ -1,0 +1,28 @@
+name: BookGuard external transfer fixture
+on:
+  push:
+    paths:
+      - '.github/workflows/bookguard-transfer-fixture.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create deterministic harmless test archive
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          p=pathlib.Path("bookguard-transfer-fixture.zip")
+          with zipfile.ZipFile(p,"w",compression=zipfile.ZIP_STORED) as z:
+              z.writestr("README.txt","BookGuard synthetic restore fixture v1\n")
+          print("SHA256",hashlib.sha256(p.read_bytes()).hexdigest())
+          with zipfile.ZipFile(p) as z:
+              assert z.read("README.txt")==b"BookGuard synthetic restore fixture v1\n"
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bookguard-synthetic-transfer
+          path: bookguard-transfer-fixture.zip
+          retention-days: 1
