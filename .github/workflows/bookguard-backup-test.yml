@@ -16,4 +16,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test snapshot, integrity, restoration and tamper rejection
-        run: python -m unittest discover -s tests -p 'test_bookguard_backup.py' -v
+        run: python -m unittest discover -s tests -p 'test_bookguard_*.py' -v
