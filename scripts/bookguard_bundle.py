@@ -23,7 +23,9 @@ def verify(dest):
     bundle = dest / "repository.bundle"
     if sha256(bundle) != meta["sha256"]:
         raise ValueError("Bundle checksum mismatch")
-    subprocess.run(["git", "bundle", "verify", str(bundle)], check=True, capture_output=True)
+    with tempfile.TemporaryDirectory() as verify_dir:
+        subprocess.run(["git", "init", "-q", verify_dir], check=True, capture_output=True)
+        subprocess.run(["git", "-C", verify_dir, "bundle", "verify", str(bundle)], check=True, capture_output=True)
     with tempfile.TemporaryDirectory() as temp:
         subprocess.run(["git", "clone", "--quiet", str(bundle), temp], check=True, capture_output=True)
         actual = git(Path(temp), "rev-parse", "HEAD")
